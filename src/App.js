@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile/index";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
 

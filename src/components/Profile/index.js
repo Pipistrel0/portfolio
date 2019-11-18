@@ -1,10 +1,16 @@
-import React from "./node_modules/react";
-import Typical from "./node_modules/react-typical";
+import React from "react";
+import Typical from "react-typical";
+import "./styles.css";
 
 const Profile = () => {
   return (
-    <div>
-      <Typica />
+    <div className="wrapper">
+      <Typical
+        steps={["Hello", 1000, "Hello world!", 500]}
+        loop={Infinity}
+        wrapper="b"
+        className="typical"
+      />
     </div>
   );
 };

@@ -1,0 +1,14 @@
+.typical {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: green;
+}
+
+.wrapper {
+  background-color: blue;
+}
+
+p {
+  background-color: red;
+}
