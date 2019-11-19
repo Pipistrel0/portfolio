@@ -3,7 +3,8 @@ body {
   min-height: 100%;
 }
 
-.container {
+.App {
+  background-color: #22262a;
   display: flex;
   justify-content: center;
 }
