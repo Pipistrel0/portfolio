@@ -8,19 +8,17 @@ import { particlesConfig } from "./constants/particlesConfig";
 
 function App() {
   return (
-    <div className="container">
-      <div className="app">
-        <div className="containerProfile">
-          <Profile />
-        </div>
-        <div className="containerButton">
-          <Button />
-        </div>
-        <div className="containerContact">
-          <Contact />
-        </div>
-        <Particles params={particlesConfig} className="particles" />
+    <div className="app">
+      <div className="containerProfile">
+        <Profile />
       </div>
+      <div className="containerButton">
+        <Button />
+      </div>
+      <div className="containerContact">
+        <Contact />
+      </div>
+      <Particles params={particlesConfig} className="particles" />
     </div>
   );
 }
