@@ -1,0 +1,43 @@
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.contactItem {
+  background: #ff9a02;
+  list-style: none;
+  width: 50px;
+  height: 40px;
+  padding: 15px;
+  display: block;
+  cursor: pointer;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: black;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.github {
+  background-color: #333;
+}
+
+.email {
+  background-color: #6fc2b0;
+}
+
+.resume {
+  background-color: #565f69;
+}

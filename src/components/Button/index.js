@@ -4,7 +4,7 @@ import "./styles.css";
 const Button = () => {
   return (
     <div className="container">
-      <a className="button">Ver proyectos</a>
+      <span className="button">Ver proyectos</span>
     </div>
   );
 };
