@@ -11,10 +11,11 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink linkedin"
         >
-          <span>linkedin</span>
+          <span className="text">LINKEDIN</span>
           <img
             src="https://img.icons8.com/color/48/000000/linkedin.png"
             alt="linkedin"
+            className="svg"
           ></img>
         </a>
       </li>
@@ -25,7 +26,12 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink github "
         >
-          <span>github</span>
+          <span className="text">GITHUB</span>
+          <img
+            src="https://img.icons8.com/windows/48/000000/github.png"
+            alt="github"
+            className="svg"
+          ></img>
         </a>
       </li>
       <li className="contactItem email">
@@ -35,7 +41,12 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink email"
         >
-          <span>email</span>
+          <span className="text">EMAIL</span>
+          <img
+            src="https://img.icons8.com/ios/48/000000/filled-message.png"
+            alt="email"
+            className="svg"
+          ></img>
         </a>
       </li>
       <li className="contactItem resume">
@@ -45,7 +56,12 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink resume"
         >
-          <span>curriculum</span>
+          <span className="text">CV</span>
+          <img
+            src="https://img.icons8.com/ios/48/000000/overview-pages-2.png"
+            alt="curriculum"
+            className="svg"
+          ></img>
         </a>
       </li>
     </ul>

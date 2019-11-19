@@ -1,10 +1,8 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
 body {
   background-color: #22262a;
+  min-height: 100%;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -18,16 +16,16 @@ body {
 }
 .containerButton {
   position: absolute;
-  top: 75%;
-  left: 48.5%;
-  transform: translate(-20%, -20%);
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .containerContact {
   position: absolute;
-  top: 33%;
-  left: -2%;
-  transform: translate(-20%, -20%);
+  top: 44%;
+  left: 2%;
+  transform: translate(-50%, -50%);
 }
 
 .particles {
