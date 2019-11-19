@@ -1,4 +1,7 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { GoPerson } from "react-icons/go";
 import "./styles.css";
 
 const Contact = () => {
@@ -12,11 +15,12 @@ const Contact = () => {
           className="contactLink linkedin"
         >
           <span className="text">LINKEDIN</span>
-          <img
+          <FaLinkedin />
+          {/* <img
             src="https://img.icons8.com/color/48/000000/linkedin.png"
             alt="linkedin"
             className="svg"
-          ></img>
+          ></img> */}
         </a>
       </li>
       <li className="contactItem github">
@@ -27,11 +31,12 @@ const Contact = () => {
           className="contactLink github "
         >
           <span className="text">GITHUB</span>
-          <img
+          <FaGithub />
+          {/* <img
             src="https://img.icons8.com/windows/48/000000/github.png"
             alt="github"
             className="svg"
-          ></img>
+          ></img> */}
         </a>
       </li>
       <li className="contactItem email">
@@ -42,11 +47,12 @@ const Contact = () => {
           className="contactLink email"
         >
           <span className="text">EMAIL</span>
-          <img
+          <IoIosMail />
+          {/* <img
             src="https://img.icons8.com/ios/48/000000/filled-message.png"
             alt="email"
             className="svg"
-          ></img>
+          ></img> */}
         </a>
       </li>
       <li className="contactItem resume">
@@ -57,11 +63,12 @@ const Contact = () => {
           className="contactLink resume"
         >
           <span className="text">CV</span>
-          <img
+          <GoPerson />
+          {/* <img
             src="https://img.icons8.com/ios/48/000000/overview-pages-2.png"
             alt="curriculum"
             className="svg"
-          ></img>
+          ></img> */}
         </a>
       </li>
     </ul>
