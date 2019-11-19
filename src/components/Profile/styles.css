@@ -1,14 +1,43 @@
-.typical {
+.profile {
+  background-color: rgba(128, 128, 128, 0.1);
+  position: relative;
+  margin: 0px;
+  padding: 20px;
+  max-width: 450px;
   display: flex;
+  flex-flow: column wrap;
   align-items: center;
-  align-content: center;
-  background-color: green;
+  font-family: consolas;
+  font-size: 1.2em;
+  border: 1px s;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.37);
+  color: #9a9999;
+  padding-bottom: 0;
 }
 
-.wrapper {
-  background-color: blue;
+.img {
+  max-width: 200px;
 }
 
-p {
-  background-color: red;
+.text1 {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.textContainer {
+  width: 400px;
+  align-self: flex-start;
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 0px;
+}
+.text2 {
+  /* background-color: green;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 50%; */
+  font-size: 1.6em;
+  margin-bottom: 0px;
 }
