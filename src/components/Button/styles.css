@@ -1,0 +1,22 @@
+.container {
+}
+
+.button {
+  color: #ff9a02;
+  border: 2px solid #ff9a02;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: consolas;
+  font-size: 1.4em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.button:hover {
+  color: black;
+  background-color: #ff9a02;
+  border: 1px solid black;
+}

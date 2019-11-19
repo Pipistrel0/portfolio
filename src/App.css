@@ -1,10 +1,22 @@
 body {
-  background-color: #2e2e2e;
+  background-color: #22262a;
 }
 .container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerProfile {
   position: absolute;
-  top: 5%;
-  left: 30%;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.containerButton {
+  position: absolute;
+  top: 71%;
+  left: 48.5%;
+  transform: translate(-20%, -20%);
 }
 .particles {
   position: fixed;
