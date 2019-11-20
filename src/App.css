@@ -1,9 +1,9 @@
 body {
   background-color: #22262a;
-  min-height: 100%;
 }
 
-.container {
+.App {
+  background-color: #22262a;
   display: flex;
   justify-content: center;
 }
@@ -24,7 +24,7 @@ body {
 .containerContact {
   position: absolute;
   top: 44%;
-  left: 1%;
+  left: 1.5%;
   transform: translate(-50%, -50%);
 }
 

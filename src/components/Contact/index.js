@@ -1,7 +1,7 @@
 import React from "react";
+import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { GoPerson } from "react-icons/go";
+import { GoPerson, GoMail } from "react-icons/go";
 import "./styles.css";
 
 const Contact = () => {
@@ -15,12 +15,11 @@ const Contact = () => {
           className="contactLink linkedin"
         >
           <span className="text">LINKEDIN</span>
-          <FaLinkedin />
-          {/* <img
-            src="https://img.icons8.com/color/48/000000/linkedin.png"
-            alt="linkedin"
-            className="svg"
-          ></img> */}
+          <div className="svg">
+            <IconContext.Provider value={{ color: "#fff", size: "1.8em" }}>
+              <FaLinkedin />
+            </IconContext.Provider>
+          </div>
         </a>
       </li>
       <li className="contactItem github">
@@ -31,12 +30,11 @@ const Contact = () => {
           className="contactLink github "
         >
           <span className="text">GITHUB</span>
-          <FaGithub />
-          {/* <img
-            src="https://img.icons8.com/windows/48/000000/github.png"
-            alt="github"
-            className="svg"
-          ></img> */}
+          <div className="svg">
+            <IconContext.Provider value={{ size: "1.8em" }}>
+              <FaGithub />
+            </IconContext.Provider>
+          </div>
         </a>
       </li>
       <li className="contactItem email">
@@ -47,12 +45,9 @@ const Contact = () => {
           className="contactLink email"
         >
           <span className="text">EMAIL</span>
-          <IoIosMail />
-          {/* <img
-            src="https://img.icons8.com/ios/48/000000/filled-message.png"
-            alt="email"
-            className="svg"
-          ></img> */}
+          <IconContext.Provider value={{ size: "1.8em" }}>
+            <GoMail />
+          </IconContext.Provider>
         </a>
       </li>
       <li className="contactItem resume">
@@ -62,13 +57,10 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink resume"
         >
-          <span className="text">CV</span>
-          <GoPerson />
-          {/* <img
-            src="https://img.icons8.com/ios/48/000000/overview-pages-2.png"
-            alt="curriculum"
-            className="svg"
-          ></img> */}
+          <span className="text">CURRICULUM</span>
+          <IconContext.Provider value={{ size: "1.8em" }}>
+            <GoPerson />
+          </IconContext.Provider>
         </a>
       </li>
     </ul>
