@@ -23,9 +23,23 @@ body {
 
 .containerContact {
   position: absolute;
+<<<<<<< HEAD
   top: 44%;
   left: 1.5%;
+=======
+  top: 43%;
+  left: 1%;
+>>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
   transform: translate(-50%, -50%);
+}
+
+.containerNavigation {
+  position: fixed;
+  top: 3rem;
+  right: 4rem;
+  z-index: 1000;
+  width: 4.2em;
+  cursor: pointer;
 }
 
 .particles {
