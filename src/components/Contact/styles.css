@@ -18,19 +18,17 @@ li {
   background: #ff9a02;
   list-style: none;
   width: 130px;
-  height: 48px;
-  padding: 15px;
+  height: 35px;
+  padding: 13.5px;
   display: block;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border-radius: 2px;
 }
 .contactItem:hover {
-  width: 250px;
-  border-radius: 3px;
+  width: 240px;
 }
 
 .contactLink {

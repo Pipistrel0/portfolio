@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import Profile from "./components/Profile";
 import Button from "./components/Button";
 import Contact from "./components/Contact";
+import Navigation from "./components/Navigation";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
 
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="containerContact">
         <Contact />
+      </div>
+      <div className="containerNavigation">
+        <Navigation />
       </div>
       <div className="containerParticles">
         <Particles params={particlesConfig} className="particles" />
