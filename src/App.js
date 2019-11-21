@@ -40,7 +40,6 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <div className="App">
-            <Portfolio />
             <Contact />
           </div>
         </Route>
