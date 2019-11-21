@@ -23,13 +23,8 @@ body {
 
 .containerContact {
   position: absolute;
-<<<<<<< HEAD
-  top: 44%;
-  left: 1.5%;
-=======
   top: 43%;
-  left: 1%;
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
+  left: 1.5%;
   transform: translate(-50%, -50%);
 }
 

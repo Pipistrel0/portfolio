@@ -18,24 +18,14 @@ li {
   background: #ff9a02;
   list-style: none;
   width: 130px;
-<<<<<<< HEAD
-  height: 30px;
-  padding: 15px;
-=======
   height: 35px;
   padding: 13.5px;
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
   display: block;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border-radius: 2px;
-=======
   transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
 }
 .contactItem:hover {
   width: 240px;

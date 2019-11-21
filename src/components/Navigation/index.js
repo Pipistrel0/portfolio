@@ -9,10 +9,10 @@ const Navigation = () => {
         id="navigation-toggle"
         className="navigation-checkbox"
       ></input>
-      <label for="navigation-toggle" class="navigation-button">
-        <div class="navigation-line"></div>
-        <div class="navigation-line"></div>
-        <div class="navigation-line"></div>
+      <label htmlFor="navigation-toggle" className="navigation-button">
+        <div className="navigation-line"></div>
+        <div className="navigation-line"></div>
+        <div className="navigation-line"></div>
       </label>
     </div>
   );

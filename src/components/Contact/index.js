@@ -16,11 +16,7 @@ const Contact = () => {
         >
           <span className="text">LINKEDIN</span>
           <div className="svg">
-<<<<<<< HEAD
-            <IconContext.Provider value={{ color: "#fff", size: "1.8em" }}>
-=======
             <IconContext.Provider value={{ color: "#fff", size: "1.75em" }}>
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
               <FaLinkedin />
             </IconContext.Provider>
           </div>
@@ -35,11 +31,7 @@ const Contact = () => {
         >
           <span className="text">GITHUB</span>
           <div className="svg">
-<<<<<<< HEAD
-            <IconContext.Provider value={{ size: "1.8em" }}>
-=======
             <IconContext.Provider value={{ size: "1.75em" }}>
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
               <FaGithub />
             </IconContext.Provider>
           </div>
@@ -53,11 +45,7 @@ const Contact = () => {
           className="contactLink email"
         >
           <span className="text">EMAIL</span>
-<<<<<<< HEAD
-          <IconContext.Provider value={{ size: "1.8em" }}>
-=======
           <IconContext.Provider value={{ size: "1.75em" }}>
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
             <GoMail />
           </IconContext.Provider>
         </a>
@@ -70,11 +58,7 @@ const Contact = () => {
           className="contactLink resume"
         >
           <span className="text">CURRICULUM</span>
-<<<<<<< HEAD
-          <IconContext.Provider value={{ size: "1.8em" }}>
-=======
           <IconContext.Provider value={{ size: "1.75em" }}>
->>>>>>> a8c070fce1352ba0c6755d2f287c438fcdaa044a
             <GoPerson />
           </IconContext.Provider>
         </a>

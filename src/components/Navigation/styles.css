@@ -1,14 +1,52 @@
 .navigation-checkbox {
   display: none;
 }
-
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
 .navigation-button {
   position: fixed;
   top: 3rem;
   right: 4rem;
   z-index: 1000;
-  width: 62px;
-  height: 37.5px;
+  width: 4.2rem;
   cursor: pointer;
 }
 
@@ -16,17 +54,25 @@
   display: inline-block;
   width: 100%;
   height: 2px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #94a4b4;
   vertical-align: middle;
-  margin-top: 2px;
+  margin: auto;
 }
 
 .navigation-line:first-child,
 .navigation-line:nth-child(3) {
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     background-color 0.5s ease-in;
-  transform-origin: 20% 50.5%;
+  transform-origin: 5.5% 50%;
+}
+
+.navigation-button:hover .navigation-line:first-child {
+  transform: translateY(-0.4rem);
+}
+
+.navigation-button:hover .navigation-line:nth-child(3) {
+  transform: translateY(0.4rem);
 }
 
 .navigation-line:nth-child(2) {
@@ -59,11 +105,8 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     background-color 0.5s ease-out;
 }
-/* .navigation-button:hover {
-  transform: scale(1.2);
-} */
+
 .navigation-checkbox:checked + .navigation-button:hover {
-  /* -webkit-transform: scale(1.6); */
   transform: scale(1.2);
 }
 
