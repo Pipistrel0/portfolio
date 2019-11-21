@@ -57,7 +57,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contactLink resume"
         >
-          <span className="text">CURRICULUM</span>
+          <span className="text">CV</span>
           <IconContext.Provider value={{ size: "1.75em" }}>
             <GoPerson />
           </IconContext.Provider>

@@ -27,18 +27,13 @@
   margin-bottom: 0px;
 }
 .textContainer {
-  width: 400px;
+  width: 450px;
   align-self: flex-start;
   position: relative;
   bottom: 20px;
   margin-bottom: 0px;
 }
 .text2 {
-  /* background-color: green;
-  position: absolute;
-  left: 0%;
-  bottom: 0%;
-  width: 50%; */
   font-size: 1.6em;
   margin-top: 20px;
   margin-bottom: 0px;

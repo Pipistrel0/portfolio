@@ -10,28 +10,28 @@ body {
 
 .containerProfile {
   position: absolute;
-  top: 43%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .containerButton {
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .containerContact {
   position: absolute;
-  top: 43%;
+  top: 40%;
   left: 1.5%;
   transform: translate(-50%, -50%);
 }
 
 .containerNavigation {
   position: fixed;
-  top: 3rem;
-  right: 4rem;
+  top: 2.3%;
+  right: 2.3%;
   z-index: 1000;
   width: 4.2em;
   cursor: pointer;

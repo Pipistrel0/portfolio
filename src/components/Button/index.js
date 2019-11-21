@@ -4,7 +4,9 @@ import "./styles.css";
 const Button = () => {
   return (
     <div className="container">
-      <span className="button">Ver proyectos</span>
+      <a href="#/portfolio" className="link">
+        <span className="button">Ver proyectos</span>
+      </a>
     </div>
   );
 };

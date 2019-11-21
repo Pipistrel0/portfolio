@@ -16,7 +16,7 @@ const Profile = () => {
           <p>
             Soy un, 
             <Typical
-              steps={["programador.", 2000, "estudiante.", 2000]}
+              steps={["desarrollador.", 2000, "estudiante.", 2000]}
               loop={Infinity}
               wrapper="b"
               className="typical"
