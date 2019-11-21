@@ -7,6 +7,7 @@ import Navigation from "./components/Navigation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -40,7 +41,15 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <div className="App">
-            <Contact />
+            <div className="containerPortfolio">
+              <Portfolio />
+            </div>
+            <div className="containerContact">
+              <Contact />
+            </div>
+            <div className="containerNavigation">
+              <Navigation />
+            </div>
           </div>
         </Route>
       </Switch>

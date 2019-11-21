@@ -45,3 +45,20 @@ body {
   left: 0;
   z-index: -1;
 }
+
+@media screen and (min-width: 1400px) {
+  .containerContact {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+  }
+  .containerNavigation {
+    position: fixed;
+    top: 3.3%;
+    right: 3.3%;
+    z-index: 1000;
+    width: 4.2em;
+    cursor: pointer;
+  }
+}
