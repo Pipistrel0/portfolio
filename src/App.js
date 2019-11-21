@@ -38,6 +38,12 @@ function App() {
             <Particles params={particlesConfig} className="particles" />
           </div>
         </Route>
+        <Route path="/portfolio">
+          <div className="App">
+            <Portfolio />
+            <Contact />
+          </div>
+        </Route>
       </Switch>
     </Router>
   );
