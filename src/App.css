@@ -1,3 +1,12 @@
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 body {
   background-color: #22262a;
 }
@@ -44,6 +53,22 @@ body {
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background-color: #171a1d;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #97bfd3;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #171a1d;
+  border-radius: 3px;
 }
 
 @media screen and (min-width: 1400px) {

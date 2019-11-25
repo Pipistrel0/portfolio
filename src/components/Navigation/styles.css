@@ -32,14 +32,7 @@ input[type="checkbox" i] {
   padding: initial;
   border: initial;
 }
-*,
-:after,
-:before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 .navigation-button {
   position: fixed;
   z-index: 1000;
@@ -206,15 +199,15 @@ li {
   background: #252a2e;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.45s ease-out;
-  transition: all 0.45s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .navigation-link:active:before,
 .navigation-link:focus:before,
 .navigation-link:hover:before {
-  -webkit-transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }

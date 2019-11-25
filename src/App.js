@@ -4,6 +4,7 @@ import Profile from "./components/Profile";
 import Button from "./components/Button";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
@@ -38,6 +39,9 @@ function App() {
             </div>
             <Particles params={particlesConfig} className="particles" />
           </div>
+          <div className="containerFooter">
+            <Footer />
+          </div>
         </Route>
         <Route path="/portfolio">
           <div className="App">
@@ -49,6 +53,9 @@ function App() {
             </div>
             <div className="containerNavigation">
               <Navigation />
+            </div>
+            <div className="containerFooter">
+              <Footer />
             </div>
           </div>
         </Route>
