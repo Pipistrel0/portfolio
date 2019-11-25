@@ -1,0 +1,223 @@
+.header {
+  font-size: 4rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.header,
+.sub {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.sub {
+  font-family: Inconsolata, sans-serif;
+  font-size: 1.6rem;
+  color: #94a4b4;
+  display: inline-block;
+  margin: 1.2rem 0;
+  line-height: 1.5;
+}
+
+.portfolio {
+  margin-top: 4rem;
+}
+
+.row {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 6rem;
+}
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+.row [class^="col-"] {
+  float: left;
+}
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.project {
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  visibility: visible;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-img {
+  width: 570px;
+  height: 320px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.5));
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.project-buttons {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.project-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #22262a;
+  font-family: Staatliches, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin: 0 1rem;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.project-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.project-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100rem;
+  height: 50rem;
+  background-color: #343a41;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  -webkit-box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
+  opacity: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+  -webkit-transform: translate(-50%, -50%) scale(0.25);
+  transform: translate(-50%, -50%) scale(0.25);
+}
+
+.project-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: #94a4b4;
+  font-size: 3rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.project-left {
+  width: 60rem;
+  height: 100%;
+  display: inline-block;
+}
+
+.project-img--modal {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.project-right {
+  width: calc(100% - 60.5rem);
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.project-label {
+  font-size: 1.6rem;
+  color: #94a4b4;
+  letter-spacing: 1px;
+}
+
+.project-name {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.project-technologies {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.project-technology {
+  display: inline-block;
+  margin: 0.5rem;
+  border: 1px solid #22262a;
+  padding: 0.5rem;
+  color: #94a4b4;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.project-summary {
+  margin-top: 1rem;
+  font-family: Inconsolata, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #94a4b4;
+  overflow-y: scroll;
+  height: 22rem;
+  white-space: pre-line;
+}
+
+.project-button--modal {
+  margin: 2rem 0.5rem 0 0.5rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1.5rem;
+}
