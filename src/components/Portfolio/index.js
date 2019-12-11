@@ -1,4 +1,5 @@
 import React from "react";
+import ThumbnailPortfolio from "./ThumbnailPortfolio";
 import "./styles.css";
 
 const Portfolio = () => {
@@ -8,6 +9,9 @@ const Portfolio = () => {
         Portafolio
         <sub className="sub">estos son los portafolios en los que trabaje</sub>
       </h2>
+      <div className="thumbnail-portfolio-grid">
+        <ThumbnailPortfolio />
+      </div>
     </main>
   );
 };

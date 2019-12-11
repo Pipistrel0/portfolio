@@ -1,0 +1,6 @@
+.thumbnail-portfolio {
+  background: #ddd;
+  height: 500px;
+  width: 1024px;
+  display: flex;
+}
