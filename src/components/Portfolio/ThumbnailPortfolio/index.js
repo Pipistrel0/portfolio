@@ -19,10 +19,10 @@ class ThumbnailPortfolio extends React.Component {
     return (
       <div className="thumbnail-portfolio">
         <div style={{ flex: 1 }}>
-          <ActiveThumbnailProject activeThumbnail={this.image} />
+          <ActiveThumbnailProject activeThumbnail={this.state.image} />
           <ProjectsGrid handleClick={this.handleClick} />
         </div>
-        <div style={{ flex: 1 }}>Izquierda</div>
+        <div style={{ flex: 1 }}>Derecha</div>
       </div>
     );
   }
