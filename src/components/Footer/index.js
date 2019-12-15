@@ -3,20 +3,23 @@ import "./styles.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer-item">
+    <footer className="footer">
+      <div className="footer-item">
         © 2019 Gianluca Ciccarelli. Todos los derechos reservados.
       </div>
-      <div class="footer-item">
-        <div class="footer-contact">
+      <div className="footer-item">
+        <div className="footer-contact">
           Email:{" "}
-          <a href="mailto:gianluca.ciccarelli25@gmail.com" class="footer-link">
+          <a
+            href="mailto:gianluca.ciccarelli25@gmail.com"
+            className="footer-link"
+          >
             gianluca.ciccarelli25@gmail.com
           </a>
         </div>
-        <div class="footer-contact">
+        <div className="footer-contact">
           Tel:{" "}
-          <a href="tel: +541168688763" class="footer-link">
+          <a href="tel: +541168688763" className="footer-link">
             +541168688763
           </a>
         </div>

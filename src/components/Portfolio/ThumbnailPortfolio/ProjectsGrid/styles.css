@@ -5,3 +5,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.project {
+  width: 33.3%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}

@@ -3,3 +3,8 @@
   width: 100%;
   background: #333a;
 }
+
+.active-thumbnail {
+  width: 100%;
+  position: relative;
+}
