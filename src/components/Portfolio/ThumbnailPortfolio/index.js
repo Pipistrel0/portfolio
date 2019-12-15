@@ -1,19 +1,20 @@
 import React from "react";
 import ActiveThumbnailProject from "./ActiveThumbnailProject";
 import ProjectsGrid from "./ProjectsGrid";
+import ActiveText from "./ActiveText";
 import "./styles.css";
-import utn from "../../../images/1.jpg";
-const wtf = { utn };
-console.log(wtf);
+
 class ThumbnailPortfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { image: { utn } };
+    this.state = { image: null, texto: <h1>Projects</h1> };
   }
+
   handleClick = e => {
     const newImage = e.target.getAttribute("src");
-    console.log("around-sm");
     this.setState({ image: newImage });
+    this.setState({ texto: e.target.getAttribute("src") });
+    console.log(this.state.image);
   };
   render() {
     return (
@@ -22,7 +23,9 @@ class ThumbnailPortfolio extends React.Component {
           <ActiveThumbnailProject activeThumbnail={this.state.image} />
           <ProjectsGrid handleClick={this.handleClick} />
         </div>
-        <div style={{ flex: 1 }}>Derecha</div>
+        <div style={{ flex: 1 }}>
+          <ActiveText activeText={this.state.texto} />
+        </div>
       </div>
     );
   }

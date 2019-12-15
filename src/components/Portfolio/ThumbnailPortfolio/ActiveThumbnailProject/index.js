@@ -5,17 +5,20 @@ class ActiveThumbnailProject extends React.Component {
   constructor(props) {
     super(props);
     this.state = { activeThumbnail: this.props.activeThumbnail };
-    console.log(this.props.activeThumbnail);
   }
 
   render() {
     return (
       <div className="active-thumbnail-project">
-        <img
-          src={this.props.activeThumbnail}
-          alt="activeThumbnail"
-          className="active-thumbnail"
-        ></img>
+        {this.props.activeThumbnail ? (
+          <img
+            src={this.props.activeThumbnail}
+            alt="activeThumbnail"
+            className="active-thumbnail"
+          ></img>
+        ) : (
+          <h3 className="sub">estos son los portafolios en los que trabaje</h3>
+        )}
       </div>
     );
   }

@@ -1,5 +1,4 @@
 import React from "react";
-// import Project from "./Project";
 import "./styles.css";
 import utn from "../../../../images/1.jpg";
 import weather from "../../../../images/2.jpg";
