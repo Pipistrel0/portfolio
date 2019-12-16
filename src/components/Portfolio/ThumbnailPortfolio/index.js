@@ -14,7 +14,6 @@ class ThumbnailPortfolio extends React.Component {
     const newImage = e.target.getAttribute("src");
     this.setState({ image: newImage });
     this.setState({ texto: e.target.getAttribute("src") });
-    console.log(this.state.image);
   };
   render() {
     return (

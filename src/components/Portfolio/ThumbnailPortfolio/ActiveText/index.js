@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEye, FaCode } from "react-icons/fa";
 import "./styles.css";
 import utn from "./../../../../images/1.jpg";
 import weather from "./../../../../images/2.jpg";
@@ -6,98 +7,135 @@ import portfolio from "./../../../../images/3.jpg";
 
 const ActiveText = ({ activeText }) => {
   const laravel = (
-    <div class="project__right">
-      <div class="project__label">Proyecto</div>
-      <h3 class="project__name">Gestor de pasantias</h3>
-      <ul class="project__technologies">
-        <li class="project__technology">HTML &amp; CSS</li>
-        <li class="project__technology">JavaScript</li>
-        <li class="project__technology">Bootstrap</li>
-        <li class="project__technology">PHP</li>
-        <li class="project__technology">Laravel</li>
-        <li class="project__technology">MySQL</li>
+    <div className="project-right">
+      <div className="project-label">PROYECTO</div>
+      <h3 className="project-name">GESTOR DE PASANTIAS</h3>
+      <ul className="project-technologies">
+        <li className="project-technology">HTML &amp; CSS</li>
+        <li className="project-technology">JAVASCRIPT</li>
+        <li className="project-technology">BOOTSTRAP</li>
+        <li className="project-technology">PHP</li>
+        <li className="project-technology">LARAVEL</li>
+        <li className="project-technology">MYSQL</li>
       </ul>
-      <div class="project__label">Acerca del proyecto</div>
-      <p class="project__summary">Gestor de pasantiasn en la utn</p>
-      <a
-        href="https://www.pipistrel0.com"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Demo
-      </a>
-      <a
-        href="https://github.com/Pipistrel0"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Codigo
-      </a>
+      <div className="project-label">ACERCA DEL PROYECTO</div>
+      <p className="project-summary">Gestor de pasantiasn en la utn</p>
+      <div className="buttons">
+        <div className="button-demo">
+          <a
+            href="https://www.pipistrel0.com"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaEye size="1em" />
+            </div>
+            DEMO
+          </a>
+        </div>
+        <div className="button-code">
+          <a
+            href="https://github.com/Pipistrel0"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaCode />
+            </div>
+            CODIGO
+          </a>
+        </div>
+      </div>
     </div>
   );
   const weatherApp = (
-    <div class="project__right">
-      <div class="project__label">Proyecto</div>
-      <h3 class="project__name">Weather-app</h3>
-      <ul class="project__technologies">
-        <li class="project__technology">HTML &amp; CSS &amp; JSX</li>
-        <li class="project__technology">JavaScript</li>
-        <li class="project__technology">React.js</li>
-        <li class="project__technology">API REST</li>
-        <li class="project__technology">Redux</li>
+    <div className="project-right">
+      <div className="project-label">PROYECTO</div>
+      <h3 className="project-name">WEATHER-APP</h3>
+      <ul className="project-technologies">
+        <li className="project-technology">HTML &amp; CSS</li>
+        <li className="project-technology">JAVASCRIPT</li>
+        <li className="project-technology">REACT.JS</li>
+        <li className="project-technology">RESPONSIVE DESING</li>
+        <li className="project-technology">API REST</li>
+        <li className="project-technology">REDUX</li>
       </ul>
-      <div class="project__label">Acerca del proyecto</div>
-      <p class="project__summary">Forecast Weather con react</p>
-      <a
-        href="https://www.pipistrel0.com"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Demo
-      </a>
-      <a
-        href="https://github.com/Pipistrel0"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Codigo
-      </a>
+      <div className="project-label">ACERCA DEL PROYECTO</div>
+      <p className="project-summary">Forecast Weather con react</p>
+      <div className="buttons">
+        <div className="button-demo">
+          <a
+            href="https://www.pipistrel0.com"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaEye size="1em" />
+            </div>
+            DEMO
+          </a>
+        </div>
+        <div className="button-code">
+          <a
+            href="https://github.com/Pipistrel0"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaCode />
+            </div>
+            CODIGO
+          </a>
+        </div>
+      </div>
     </div>
   );
 
   const portfolioReact = (
-    <div class="project__right">
-      <div class="project__label">Proyecto</div>
-      <h3 class="project__name">Portafolio con react</h3>
-      <ul class="project__technologies">
-        <li class="project__technology">HTML &amp; CSS &amp; JSX</li>
-        <li class="project__technology">JavaScript</li>
-        <li class="project__technology">React.js</li>
-        <li class="project__technology">Responsive</li>
-        <li class="project__technology">UX/UI</li>
+    <div className="project-right">
+      <div className="project-label">PROYECTO</div>
+      <h3 className="project-name">PORTAFOLIO</h3>
+      <ul className="project-technologies">
+        <li className="project-technology">HTML &amp; CSS</li>
+        <li className="project-technology">JAVASCRIPT</li>
+        <li className="project-technology">REACT.JS</li>
+        <li className="project-technology">RESPONSIVE DESING</li>
+        <li className="project-technology">UX/UI</li>
       </ul>
-      <div class="project__label">Acerca del proyecto</div>
-      <p class="project__summary">Portafolio con react</p>
-      <a
-        href="https://www.pipistrel0.com"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Demo
-      </a>
-      <a
-        href="https://github.com/Pipistrel0"
-        target="_blank"
-        class="project__button project__button--modal"
-        rel="noopener noreferrer"
-      >
-        Codigo
-      </a>
+      <div className="project-label">ACERCA DEL PROYECTO</div>
+      <p className="project-summary">Portafolio con react</p>
+      <div className="buttons">
+        <div className="button-demo">
+          <a
+            href="https://www.pipistrel0.com"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaEye size="1em" />
+            </div>
+            DEMO
+          </a>
+        </div>
+        <div className="button-code">
+          <a
+            href="https://github.com/Pipistrel0"
+            target="_blank"
+            className="project-button project-button--modal"
+            rel="noopener noreferrer"
+          >
+            <div className="button-svg">
+              <FaCode />
+            </div>
+            CODIGO
+          </a>
+        </div>
+      </div>
     </div>
   );
   return (

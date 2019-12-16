@@ -54,6 +54,9 @@ function App() {
             <div className="containerNavigation">
               <Navigation />
             </div>
+            <div className="containerParticles">
+              <Particles params={particlesConfig} className="particles" />
+            </div>
             <div className="containerFooter">
               <Footer />
             </div>
