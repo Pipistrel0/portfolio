@@ -1,8 +1,6 @@
 import React from "react";
 import ThumbnailPortfolio from "./ThumbnailPortfolio";
-import Particles from "react-particles-js";
 import "./styles.css";
-import { particlesConfig } from "./../../constants/particlesConfig";
 
 const Portfolio = () => {
   return (

@@ -17,7 +17,9 @@ class ActiveThumbnailProject extends React.Component {
             className="active-thumbnail"
           ></img>
         ) : (
-          <h3 className="sub">estos son los portafolios en los que trabaje</h3>
+          <h3 className="sub">
+            {"//"}estos son los portafolios en los que trabaje
+          </h3>
         )}
       </div>
     );
