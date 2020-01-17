@@ -12,9 +12,9 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path="https://pipistrel0.github.io/portfolio/">
+        <Route exact path="/">
           <div className="App">
             <div className="containerProfile">
               <Profile />
@@ -43,7 +43,7 @@ function App() {
             <Footer />
           </div>
         </Route>
-        <Route path="https://pipistrel0.github.io/portfolio/#">
+        <Route exact path="/portfolio">
           <div className="App">
             <div className="containerPortfolio">
               <Portfolio />
