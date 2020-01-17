@@ -17,7 +17,7 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/https://pipistrel0.github.io/portfolio/">
       <Switch>
         <Route exact path="/">
           <div className="App">
