@@ -17,9 +17,6 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <HashRouter basename="/https://pipistrel0.github.io/portfolio/">
-      <Switch>
-        <Route exact path="/">
           <div className="App">
             <div className="containerProfile">
               <Profile />
@@ -47,28 +44,8 @@ function App() {
           <div className="containerFooter">
             <Footer />
           </div>
-        </Route>
-        <Route path="/portfolio">
-          <div className="App">
-            <div className="containerPortfolio">
-              <Portfolio />
-            </div>
-            <div className="containerContact">
-              <Contact />
-            </div>
-            <div className="containerNavigation">
-              <Navigation />
-            </div>
-            <div className="containerParticles">
-              <Particles params={particlesConfig} className="particles" />
-            </div>
-            <div className="containerFooter">
-              <Footer />
-            </div>
-          </div>
-        </Route>
-      </Switch>
-    </HashRouter>
+        
+       
   );
 }
 
