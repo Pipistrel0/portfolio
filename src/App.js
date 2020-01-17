@@ -5,14 +5,19 @@ import Button from "./components/Button";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  HashRouter
+} from "react-router-dom";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
 import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <Switch>
         <Route exact path="/">
           <div className="App">
@@ -43,7 +48,7 @@ function App() {
             <Footer />
           </div>
         </Route>
-        <Route exact path="/portfolio">
+        <Route path="/portfolio">
           <div className="App">
             <div className="containerPortfolio">
               <Portfolio />
@@ -63,7 +68,7 @@ function App() {
           </div>
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
