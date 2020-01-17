@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/about">
+        <Route path="/">
           <div className="App">
             <div className="containerProfile">
               <Profile />
