@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="https://pipistrel0.github.io/portfolio/">
           <div className="App">
             <div className="containerProfile">
               <Profile />
@@ -43,7 +43,7 @@ function App() {
             <Footer />
           </div>
         </Route>
-        <Route path="/portfolio">
+        <Route path="https://pipistrel0.github.io/portfolio/#">
           <div className="App">
             <div className="containerPortfolio">
               <Portfolio />
