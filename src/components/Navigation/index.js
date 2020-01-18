@@ -26,7 +26,7 @@ const Navigation = () => {
           </li>
           <li className="navigation-item">
             <a
-              href="https://pipistrel0.github.io/portfolio//portafolio"
+              href="https://pipistrel0.github.io/portfolio/portafolio"
               className="navigation-link"
             >
               <span>Portafolio</span>
