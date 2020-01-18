@@ -17,12 +17,18 @@ const Navigation = () => {
       <nav className="navigation-nav">
         <ul className="navigation-list">
           <li className="navigation-item">
-            <a href="/about" className="navigation-link">
+            <a
+              href="https://pipistrel0.github.io/portfolio/"
+              className="navigation-link"
+            >
               <span>Sobre Mi</span>
             </a>
           </li>
           <li className="navigation-item">
-            <a href="/portfolio" className="navigation-link">
+            <a
+              href="https://pipistrel0.github.io/portfolio//portafolio"
+              className="navigation-link"
+            >
               <span>Portafolio</span>
             </a>
           </li>

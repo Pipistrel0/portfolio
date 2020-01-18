@@ -17,30 +17,58 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <div className="containerProfile">
-        <Profile />
-      </div>
-      <div className="containerButton">
-        <Button />
-      </div>
-      <div className="containerContact">
-        <Contact />
-      </div>
-      <div className="containerNavigation">
-        <Navigation />
-      </div>
-      <div className="containerParticles">
-        <Particles params={particlesConfig} className="particles" />
-      </div>
-      <div className="containerButton">
-        <Button />
-      </div>
-      <div className="containerContact">
-        <Contact />
-      </div>
-      <Particles params={particlesConfig} className="particles" />
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Switch>
+        <Route exact path="/">
+          <div className="App">
+            <div className="containerProfile">
+              <Profile />
+            </div>
+            <div className="containerButton">
+              <Button />
+            </div>
+            <div className="containerContact">
+              <Contact />
+            </div>
+            <div className="containerNavigation">
+              <Navigation />
+            </div>
+            <div className="containerParticles">
+              <Particles params={particlesConfig} className="particles" />
+            </div>
+            <div className="containerButton">
+              <Button />
+            </div>
+            <div className="containerContact">
+              <Contact />
+            </div>
+            <Particles params={particlesConfig} className="particles" />
+          </div>
+          <div className="containerFooter">
+            <Footer />
+          </div>
+        </Route>
+        <Route exact path="/portafolio">
+          <div className="App">
+            <div className="containerPortfolio">
+              <Portfolio />
+            </div>
+            <div className="containerContact">
+              <Contact />
+            </div>
+            <div className="containerNavigation">
+              <Navigation />
+            </div>
+            <div className="containerParticles">
+              <Particles params={particlesConfig} className="particles" />
+            </div>
+            <div className="containerFooter">
+              <Footer />
+            </div>
+          </div>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
