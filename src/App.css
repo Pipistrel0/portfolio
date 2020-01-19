@@ -45,7 +45,7 @@ body {
   width: 4.2em;
   cursor: pointer;
 }
-.containerPortfolio {
+.container-portfolio {
   position: absolute;
   top: 45%;
   left: 50%;
@@ -61,40 +61,79 @@ body {
   z-index: -1;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1024px) {
   .container-contact {
-    position: absolute;
     top: 45%;
     left: 1.5%;
-    transform: translate(-50%, -50%);
   }
   .container-navigation {
-    position: fixed;
     top: 3.3%;
     right: 3.3%;
-    z-index: 1000;
-    width: 4.2em;
-    cursor: pointer;
   }
   .container-button {
-    position: absolute;
     top: 83.5%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
   .container-profile {
-    position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
 
-  .containerPortfolio {
-    position: absolute;
+  .container-portfolio {
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container-profile {
+    top: 50%;
+    left: 60%;
+  }
+  .container-button {
+    top: 80%;
+    left: 60%;
+  }
+  .container-contact {
+    top: 45%;
+    left: 2%;
+  }
+  .container-portfolio {
+    top: 50%;
+    left: 60%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-device-width: 768px) {
+  .container-profile {
+    top: 52%;
+    left: 66%;
+  }
+  .container-button {
+    top: 83.5%;
+    left: 66%;
+  }
+
+  .container-contact {
+    top: 52%;
+    left: 1.5%;
+  }
+
+  .container-contact-portafolio {
+    top: 55%;
+    left: 1.5%;
+  }
+  .container-navigation {
+    top: 5.5%;
+    right: 5.5%;
+  }
+  .container-portfolio {
+    top: 52%;
+    left: 72%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
 }
 
 ::-webkit-scrollbar-track {

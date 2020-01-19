@@ -45,10 +45,10 @@ function App() {
         </Route>
         <Route exact path="/portafolio">
           <div className="App">
-            <div className="containerPortfolio">
+            <div className="container-portfolio">
               <Portfolio />
             </div>
-            <div className="container-contact">
+            <div className="container-contact container-contact-portafolio">
               <Contact />
             </div>
             <div className="container-navigation">
