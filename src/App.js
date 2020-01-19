@@ -16,25 +16,25 @@ function App() {
       <Switch>
         <Route exact path="/">
           <div className="App">
-            <div className="containerProfile">
+            <div className="container-profile">
               <Profile />
             </div>
-            <div className="containerButton">
+            <div className="container-button">
               <Button />
             </div>
-            <div className="containerContact">
+            <div className="container-contact">
               <Contact />
             </div>
-            <div className="containerNavigation">
+            <div className="container-navigation">
               <Navigation />
             </div>
-            <div className="containerParticles">
+            <div className="container-particles">
               <Particles params={particlesConfig} className="particles" />
             </div>
-            <div className="containerButton">
+            <div className="container-button">
               <Button />
             </div>
-            <div className="containerContact">
+            <div className="container-contact">
               <Contact />
             </div>
             <Particles params={particlesConfig} className="particles" />
@@ -48,13 +48,13 @@ function App() {
             <div className="containerPortfolio">
               <Portfolio />
             </div>
-            <div className="containerContact">
+            <div className="container-contact">
               <Contact />
             </div>
-            <div className="containerNavigation">
+            <div className="container-navigation">
               <Navigation />
             </div>
-            <div className="containerParticles">
+            <div className="container-particles">
               <Particles params={particlesConfig} className="particles" />
             </div>
             <div className="containerFooter">

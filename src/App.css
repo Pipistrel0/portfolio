@@ -17,27 +17,27 @@ body {
   justify-content: center;
 }
 
-.containerProfile {
+.container-profile {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.containerButton {
+.container-button {
   position: absolute;
-  top: 80%;
+  top: 83.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.containerContact {
+.container-contact {
   position: absolute;
   top: 40%;
   left: 1.5%;
   transform: translate(-50%, -50%);
 }
 
-.containerNavigation {
+.container-navigation {
   position: fixed;
   top: 2.3%;
   right: 2.3%;
@@ -47,7 +47,7 @@ body {
 }
 .containerPortfolio {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -59,6 +59,42 @@ body {
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+@media screen and (max-width: 1920px) {
+  .container-contact {
+    position: absolute;
+    top: 45%;
+    left: 1.5%;
+    transform: translate(-50%, -50%);
+  }
+  .container-navigation {
+    position: fixed;
+    top: 3.3%;
+    right: 3.3%;
+    z-index: 1000;
+    width: 4.2em;
+    cursor: pointer;
+  }
+  .container-button {
+    position: absolute;
+    top: 83.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container-profile {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .containerPortfolio {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 ::-webkit-scrollbar-track {
@@ -75,27 +111,4 @@ body {
   width: 6px;
   background-color: #171a1d;
   border-radius: 3px;
-}
-
-@media screen and (min-width: 1400px) {
-  .containerContact {
-    position: absolute;
-    top: 40%;
-    left: 1%;
-    transform: translate(-50%, -50%);
-  }
-  .containerNavigation {
-    position: fixed;
-    top: 3.3%;
-    right: 3.3%;
-    z-index: 1000;
-    width: 4.2em;
-    cursor: pointer;
-  }
-  .containerButton {
-    position: absolute;
-    top: 73%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 }
