@@ -14,7 +14,7 @@ const Profile = () => {
       <div className="textContainer">
         <div className="text2">
           <p>
-            Soy un
+            Soy un{" "}
             <Typical
               steps={["desarrollador.", 2000, "estudiante.", 2000]}
               loop={Infinity}
