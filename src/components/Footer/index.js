@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-portfolio">
+    <footer className="footer">
       <div className="footer-item">
         © 2019 Gianluca Ciccarelli. Todos los derechos reservados.
       </div>

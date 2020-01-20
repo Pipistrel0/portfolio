@@ -18,16 +18,9 @@
 .footer-item {
   display: inline-block;
 }
-.footer-item:not(:last-child) {
-  margin-right: 3rem;
-}
 
 .footer-contact {
   display: inline-block;
-}
-
-.footer-contact:not(:last-child) {
-  margin-right: 3rem;
 }
 
 .footer-link:link,
@@ -49,8 +42,13 @@
 
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .footer {
-    bottom: -35%;
+    bottom: -40%;
     width: 65.96%;
     font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
