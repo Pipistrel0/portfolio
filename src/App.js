@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
+import Logoo from "./components/Logoo";
 import Profile from "./components/Profile";
 import Button from "./components/Button";
 import Contact from "./components/Contact";
@@ -21,6 +22,9 @@ function App() {
             </div>
             <div className="container-button">
               <Button />
+            </div>
+            <div className="container-logo">
+              <Logoo />
             </div>
             <div className="container-contact">
               <Contact />
@@ -47,6 +51,9 @@ function App() {
           <div className="App">
             <div className="container-portfolio">
               <Portfolio />
+            </div>
+            <div className="container-logo">
+              <Logoo />
             </div>
             <div className="container-contact container-contact-portafolio">
               <Contact />

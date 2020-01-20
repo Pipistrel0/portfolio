@@ -30,6 +30,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.container-logo {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
 .container-contact {
   position: absolute;
   top: 40%;
