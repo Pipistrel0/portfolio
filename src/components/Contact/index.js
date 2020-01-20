@@ -26,7 +26,7 @@ const Contact = () => {
               )}
             />
             <Media
-              query="(min-device-width: 768px)"
+              query="(min-device-width: 768px) and (max-device-width:1920px)"
               render={() => (
                 <IconContext.Provider value={{ color: "#fff", size: "1.75em" }}>
                   <FaLinkedin />
@@ -54,7 +54,7 @@ const Contact = () => {
               )}
             />
             <Media
-              query="(min-device-width: 768px)"
+              query="(min-device-width: 768px) and (max-device-width:1920px)"
               render={() => (
                 <IconContext.Provider value={{ size: "1.75em" }}>
                   <FaGithub />
@@ -82,7 +82,7 @@ const Contact = () => {
               )}
             />
             <Media
-              query="(min-device-width: 768px)"
+              query="(min-device-width: 768px)  and (max-device-width:1920px)"
               render={() => (
                 <IconContext.Provider value={{ size: "1.75em" }}>
                   <GoMail />
@@ -110,7 +110,7 @@ const Contact = () => {
               )}
             />
             <Media
-              query="(min-device-width: 768px)"
+              query="(min-device-width: 768px)  and (max-device-width:1920px)"
               render={() => (
                 <IconContext.Provider value={{ size: "1.75em" }}>
                   <GoPerson />

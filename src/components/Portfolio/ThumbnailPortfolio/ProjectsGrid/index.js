@@ -7,25 +7,31 @@ import portfolio from "../../../../images/3.jpg";
 const ProjectsGrid = ({ handleClick }) => {
   return (
     <div className="projects-grid">
-      <img
-        src={utn}
-        alt="img"
-        className="project"
-        onClick={handleClick}
-        prop={utn}
-      ></img>
-      <img
-        src={weather}
-        alt="img"
-        className="project"
-        onClick={handleClick}
-      ></img>
-      <img
-        src={portfolio}
-        alt="img"
-        className="project"
-        onClick={handleClick}
-      ></img>
+      <div className="project-box">
+        <img
+          src={utn}
+          alt="img"
+          className="project"
+          onClick={handleClick}
+          prop={utn}
+        ></img>
+      </div>
+      <div className="project-box">
+        <img
+          src={weather}
+          alt="img"
+          className="project"
+          onClick={handleClick}
+        ></img>
+      </div>
+      <div className="project-box">
+        <img
+          src={portfolio}
+          alt="img"
+          className="project"
+          onClick={handleClick}
+        ></img>
+      </div>
     </div>
   );
 };

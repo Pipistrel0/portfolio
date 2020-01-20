@@ -5,8 +5,9 @@
 
 .header {
   font-size: 40px;
-  color: #fff;
+  color: #97bfd3;
   letter-spacing: 2px;
+  display: inline-block;
 }
 
 .header,
