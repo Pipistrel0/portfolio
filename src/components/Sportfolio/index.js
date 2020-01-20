@@ -5,6 +5,8 @@ import portfolio from "./../../images/3.jpg";
 import utnl from "./../../images/utn.png";
 import cloudl from "./../../images/cloud.png";
 import portfoliol from "./../../images/portfolio.png";
+import { IconContext } from "react-icons";
+import { FaEye } from "react-icons/fa";
 import "./styles.css";
 
 const Sportfolio = () => {
@@ -22,7 +24,12 @@ const Sportfolio = () => {
             <h3>Gestor de Pasantias Web con Laravel</h3>
             <div className="additional">
               <img src={utnl} alt="utn logo"></img>
-              <button className="open-modal">ver proyecto></button>
+              <button className="open-modal">
+                <IconContext.Provider value={{ color: "#000", size: "1.3em" }}>
+                  <FaEye />
+                </IconContext.Provider>
+                ver proyecto>
+              </button>
             </div>
           </figcaption>
         </figure>
@@ -32,17 +39,28 @@ const Sportfolio = () => {
             <h3>Pronostico del Clima con React</h3>
             <div className="additional">
               <img src={cloudl} alt="cloud logo"></img>
-              <button className="open-modal">ver proyecto></button>
+              <button className="open-modal">
+                <IconContext.Provider value={{ color: "#000", size: "1.3em" }}>
+                  <FaEye />
+                </IconContext.Provider>{" "}
+                {"  "}
+                ver proyecto>
+              </button>
             </div>
           </figcaption>
         </figure>
         <figure>
           <img src={portfolio} alt="asd"></img>
           <figcaption>
-            <h3>Portafolio con React</h3>
+            <h3>Portafolio Personal con React</h3>
             <div className="additional">
               <img src={portfoliol} alt="portfolio logo"></img>
-              <button className="open-modal">ver proyecto></button>
+              <button className="open-modal">
+                <IconContext.Provider value={{ color: "#000", size: "1.3em" }}>
+                  <FaEye />
+                </IconContext.Provider>
+                ver proyecto>
+              </button>
             </div>
           </figcaption>
         </figure>

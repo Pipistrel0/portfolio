@@ -30,6 +30,7 @@ figure {
   transition: background-color 0.5s;
   width: 640px;
   height: 360px;
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8));
 }
 
 figure img {
@@ -38,19 +39,26 @@ figure img {
   transform: translate3d(0, -20px, 0) scale(1.2);
   transition: all 0.5s;
   position: relative;
-  cursor: pointer;
   object-fit: contain;
 }
 .additional img {
   opacity: 0;
   transform: scale(1.3);
   transition: all 0.5s;
-  width: 300px;
+  width: 200px;
+  height: 200px;
+  margin-top: 7px;
+  position: relative;
 }
 .additional {
   opacity: 0;
   transform: scale(1.3);
   transition: all 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 figcaption {
   position: absolute;
@@ -58,30 +66,49 @@ figcaption {
   top: 0%;
   color: #fff;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
 }
 
 figcaption h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-transform: uppercase;
   background: black;
-  display: inline-block;
+  display: block;
   padding: 0.5em 0.7em;
   font-family: "Staatliches", "Inconsolata", consolas;
 }
 
 figcaption .open-modal {
   display: inline-block;
-  background-color: white;
-  text-transform: uppercase;
+  height: 25px;
+  width: 170px;
   text-decoration: none;
-  padding: 0.5em;
-  color: black;
-  border-radius: 4px;
+  color: #22262a;
+  font-family: Staatliches, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0 0;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 figure:hover {
   background-color: black;
-  /* opacity: 0.4; */
 }
 figure:hover img {
   transform: translate3d(0, 0, 0) scale(1);
