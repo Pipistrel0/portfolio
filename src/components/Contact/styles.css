@@ -1,4 +1,4 @@
-.contactList {
+.contact-list {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -14,7 +14,7 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
-.contactItem {
+.contact-item {
   background: #ff9a02;
   list-style: none;
   width: 130px;
@@ -27,17 +27,17 @@ li {
   align-items: center;
   transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.contactItem:hover {
+.contact-item:hover {
   width: 240px;
 }
 
-.contactLink {
+.contact-link {
   text-decoration: none;
   color: black;
   transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 2px;
 }
-.contactLink:hover {
+.contact-link:hover {
   width: 250px;
   border-radius: 3px;
 }
@@ -87,4 +87,12 @@ li {
 .svg {
   align-self: center;
   margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
+  .contact-item {
+    width: 130px;
+    height: 35px;
+    padding: 13.5px;
+  }
 }

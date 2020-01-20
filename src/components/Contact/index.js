@@ -6,13 +6,13 @@ import "./styles.css";
 
 const Contact = () => {
   return (
-    <ul className="contactList">
-      <li className="contactItem linkedin">
+    <ul className="contact-list">
+      <li className="contact-item linkedin">
         <a
           href="https://www.linkedin.com/in/gianluca-ciccarelli-a0a43a196/"
           target="_blank"
           rel="noopener noreferrer"
-          className="contactLink linkedin"
+          className="contact-link linkedin"
         >
           <span className="text">LINKEDIN</span>
           <div className="svg">
@@ -22,12 +22,12 @@ const Contact = () => {
           </div>
         </a>
       </li>
-      <li className="contactItem github">
+      <li className="contact-item github">
         <a
           href="https://github.com/Pipistrel0"
           target="_blank"
           rel="noopener noreferrer"
-          className="contactLink github "
+          className="contact-link github "
         >
           <span className="text">GITHUB</span>
           <div className="svg">
@@ -37,12 +37,12 @@ const Contact = () => {
           </div>
         </a>
       </li>
-      <li className="contactItem email">
+      <li className="contact-item email">
         <a
           href="mailto:gianluca.ciccarelli25@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="contactLink email"
+          className="contact-link email"
         >
           <span className="text">EMAIL</span>
           <IconContext.Provider value={{ size: "1.75em" }}>
@@ -50,12 +50,12 @@ const Contact = () => {
           </IconContext.Provider>
         </a>
       </li>
-      <li className="contactItem resume">
+      <li className="contact-item resume">
         <a
           href="https://drive.google.com/open?id=1ID5Mgo0ek2gOdt7-522EV0sR1zn41RAT"
           target="_blank"
           rel="noopener noreferrer"
-          className="contactLink resume"
+          className="contact-link resume"
         >
           <span className="text">CV</span>
           <IconContext.Provider value={{ size: "1.75em" }}>
