@@ -106,7 +106,7 @@ body {
 
 @media only screen and (min-width: 321px) and (max-device-width: 768px) {
   .container-profile {
-    top: 52%;
+    top: 45%;
     left: 55%;
   }
   .container-button {
@@ -115,12 +115,12 @@ body {
   }
 
   .container-contact {
-    top: 52%;
+    top: 45%;
     left: 5%;
   }
 
   .container-contact-portafolio {
-    top: 87.5%;
+    top: 45%;
     left: 5%;
   }
   .container-navigation {
@@ -128,8 +128,8 @@ body {
     right: 6%;
   }
   .container-portfolio {
-    top: 41%;
-    left: 50%;
+    top: 40%;
+    left: 53%;
   }
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Media from "react-media";
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GoPerson, GoMail } from "react-icons/go";
@@ -16,9 +17,22 @@ const Contact = () => {
         >
           <span className="text">LINKEDIN</span>
           <div className="svg">
-            <IconContext.Provider value={{ color: "#fff", size: "1.75em" }}>
-              <FaLinkedin />
-            </IconContext.Provider>
+            <Media
+              query="(min-device-width: 321px) and (max-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ color: "#fff", size: "1.2em" }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
+              )}
+            />
+            <Media
+              query="(min-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ color: "#fff", size: "1.75em" }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
+              )}
+            />
           </div>
         </a>
       </li>
@@ -31,9 +45,22 @@ const Contact = () => {
         >
           <span className="text">GITHUB</span>
           <div className="svg">
-            <IconContext.Provider value={{ size: "1.75em" }}>
-              <FaGithub />
-            </IconContext.Provider>
+            <Media
+              query="(min-device-width: 321px) and (max-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.2em" }}>
+                  <FaGithub />
+                </IconContext.Provider>
+              )}
+            />
+            <Media
+              query="(min-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.75em" }}>
+                  <FaGithub />
+                </IconContext.Provider>
+              )}
+            />
           </div>
         </a>
       </li>
@@ -45,9 +72,24 @@ const Contact = () => {
           className="contact-link email"
         >
           <span className="text">EMAIL</span>
-          <IconContext.Provider value={{ size: "1.75em" }}>
-            <GoMail />
-          </IconContext.Provider>
+          <div>
+            <Media
+              query="(min-device-width: 321px) and (max-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.2em" }}>
+                  <GoMail />
+                </IconContext.Provider>
+              )}
+            />
+            <Media
+              query="(min-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.75em" }}>
+                  <GoMail />
+                </IconContext.Provider>
+              )}
+            />
+          </div>
         </a>
       </li>
       <li className="contact-item resume">
@@ -58,9 +100,24 @@ const Contact = () => {
           className="contact-link resume"
         >
           <span className="text">CV</span>
-          <IconContext.Provider value={{ size: "1.75em" }}>
-            <GoPerson />
-          </IconContext.Provider>
+          <div>
+            <Media
+              query="(min-device-width: 321px) and (max-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.2em" }}>
+                  <GoPerson />
+                </IconContext.Provider>
+              )}
+            />
+            <Media
+              query="(min-device-width: 768px)"
+              render={() => (
+                <IconContext.Provider value={{ size: "1.75em" }}>
+                  <GoPerson />
+                </IconContext.Provider>
+              )}
+            />
+          </div>
         </a>
       </li>
     </ul>

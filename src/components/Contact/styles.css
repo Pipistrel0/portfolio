@@ -92,7 +92,16 @@ li {
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .contact-item {
     width: 130px;
-    height: 35px;
-    padding: 13.5px;
+    height: 22px;
+    padding: 10px;
+  }
+  .text {
+    align-self: center;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    font-family: consolas;
+    font-size: 15px;
   }
 }

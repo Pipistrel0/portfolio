@@ -24,8 +24,8 @@
 
 @media only screen and (min-width: 321px) {
   .thumbnail-portfolio {
-    height: 250px;
-    width: 300px;
+    height: 190px;
+    width: 250px;
   }
   .footer-portfolio {
     bottom: -70%;
