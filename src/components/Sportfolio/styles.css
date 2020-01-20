@@ -123,3 +123,160 @@ figure:hover .additional img {
   opacity: 1;
   transform: scale(1);
 }
+
+.modal {
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+/* .close-modal {
+  position: relative;
+  font-family: "Staatchiles", consolas;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.container-text {
+  background-color: #343a41;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+.project-right {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  color: #fff;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.project-label {
+  font-size: 1.4em;
+  color: #94a4b4;
+}
+
+.project-name {
+  font-size: 2.2em;
+
+  font-weight: lighter;
+}
+
+.project-technologies {
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.project-technology {
+  display: inline-block;
+  margin: 3px;
+  border: 1px solid #22262a;
+  padding: 3px;
+  color: #94a4b4;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.project-summary {
+  margin-top: 18px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 20px;
+  color: #94a4b4;
+  overflow-y: scroll;
+  height: 230px;
+  white-space: pre-line;
+}
+.project-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #22262a;
+  font-family: Staatliches, sans-serif;
+  font-size: 18px;
+
+  margin: 0 10px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.project-button--modal {
+  margin: 10px 5px 0 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.project-button:active,
+.project-button:focus,
+.project-button:hover {
+  background-color: #fff;
+}
+.close-modal {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #22262a;
+  font-family: Staatliches, sans-serif;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 3px;
+  margin: 10px 5px 0px 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.close-modal:active,
+.close-modal:focus,
+.close-modal:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+.button-demo {
+  display: flex;
+  align-items: center;
+  flex-direction: nowrap;
+}
+.button-svg {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -2px;
+  margin-right: 3px;
+}
+
+.project-modal {
+  position: fixed;
+  top: -3%;
+  left: 35%;
+  width: 420px;
+  height: 520px;
+  background-color: #343a41;
+  margin: 8% auto;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

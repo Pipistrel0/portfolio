@@ -9,8 +9,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
-import Portfolio from "./components/Portfolio";
-import Sportfolio from './components/Sportfolio';
+import Sportfolio from "./components/Sportfolio";
 
 function App() {
   return (
