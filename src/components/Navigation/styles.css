@@ -105,9 +105,7 @@ input[type="checkbox" i] {
     background-color 0.5s ease-in;
   transform-origin: 0% 50%;
 }
-.navigation-button {
-  width: 80px;
-}
+
 .navigation-button {
   width: 80px;
 }
@@ -221,7 +219,9 @@ li {
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .navigation-button {
     width: 80px;
+    padding: 0px;
   }
+
   .navigation-line:first-child,
   .navigation-line:nth-child(3) {
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),

@@ -39,7 +39,7 @@ function App() {
             </div>
             <Particles params={particlesConfig} className="particles" />
           </div>
-          <div className="containerFooter">
+          <div className="container-footer">
             <Footer />
           </div>
         </Route>
@@ -57,7 +57,7 @@ function App() {
             <div className="container-particles">
               <Particles params={particlesConfig} className="particles" />
             </div>
-            <div className="containerFooter">
+            <div className="container-footer">
               <Footer />
             </div>
           </div>

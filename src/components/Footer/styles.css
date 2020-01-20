@@ -49,6 +49,8 @@
 
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .footer {
-    bottom: -75%;
+    bottom: -35%;
+    width: 65.96%;
+    font-size: 0.7rem;
   }
 }
