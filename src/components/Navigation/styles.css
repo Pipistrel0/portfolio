@@ -237,4 +237,10 @@ li {
   .navigation-item {
     width: 100%;
   }
+  .navigation-link {
+    font-size: 10px;
+  }
+  .navigation-link span {
+    font-size: 27px;
+  }
 }

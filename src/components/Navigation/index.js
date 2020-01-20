@@ -21,7 +21,7 @@ const Navigation = () => {
               href="https://pipistrel0.github.io/portfolio/"
               className="navigation-link"
             >
-              <span>Sobre Mi</span>
+              <span className="span">Sobre Mi</span>
             </a>
           </li>
           <li className="navigation-item">
@@ -29,7 +29,7 @@ const Navigation = () => {
               href="https://pipistrel0.github.io/portfolio/portafolio"
               className="navigation-link"
             >
-              <span>Portafolio</span>
+              <span className="span">Portafolio</span>
             </a>
           </li>
         </ul>
