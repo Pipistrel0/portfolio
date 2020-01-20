@@ -214,6 +214,12 @@ li {
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
       background-color 0.5s ease-out;
   }
+  .navigation-line:first-child,
+  .navigation-line:nth-child(3) {
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+      background-color 0.5s ease-in;
+    transform-origin: 7% 50%;
+  }
 }
 
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
@@ -226,7 +232,7 @@ li {
   .navigation-line:nth-child(3) {
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
       background-color 0.5s ease-in;
-    transform-origin: 7% 50%;
+    transform-origin: 0% 50%;
   }
   .navigation-list {
     width: 20rem;
