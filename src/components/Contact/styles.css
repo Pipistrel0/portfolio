@@ -80,7 +80,7 @@ li {
   margin-right: 15px;
   margin-bottom: 15px;
   margin-left: 15px;
-  font-family: consolas;
+  font-family: incosolata;
   font-size: 1.1em;
 }
 
@@ -101,7 +101,7 @@ li {
     margin-right: 15px;
     margin-bottom: 5px;
     margin-left: 1px;
-    font-family: consolas;
+    font-family: "Incosolata", consolas;
     font-size: 15px;
   }
 }
