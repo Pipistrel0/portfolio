@@ -235,6 +235,12 @@ li {
       background-color 0.5s ease-in;
     transform-origin: -36% 50%;
   }
+  .navigation-button .navigation-line:first-child {
+    transform: translateY(7px);
+  }
+  .navigation-button .navigation-line:nth-child(3) {
+    transform: translateY(-7px);
+  }
   .navigation-button:hover .navigation-line:first-child {
     transform: translateY(7px);
   }

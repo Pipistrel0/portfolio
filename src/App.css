@@ -61,7 +61,7 @@ body {
   z-index: -1;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-device-width: 1920px) {
   .container-contact {
     top: 45%;
     left: 1.5%;
@@ -125,11 +125,11 @@ body {
   }
   .container-navigation {
     top: 3.3%;
-    right: 3.3%;
+    right: -6.6%;
   }
   .container-portfolio {
     top: 40%;
-    left: 58%;
+    left: 56%;
   }
 }
 
