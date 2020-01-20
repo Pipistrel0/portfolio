@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { particlesConfig } from "./constants/particlesConfig";
 import Portfolio from "./components/Portfolio";
+import Sportfolio from './components/Sportfolio';
 
 function App() {
   return (
@@ -50,7 +51,7 @@ function App() {
         <Route exact path="/portafolio">
           <div className="App">
             <div className="container-portfolio">
-              <Portfolio />
+              <Sportfolio />
             </div>
             <div className="container-logo">
               <Logoo />
