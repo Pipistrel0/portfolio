@@ -3,7 +3,7 @@
 }
 .footer {
   position: absolute;
-  bottom: -50%;
+  bottom: -60%;
   left: 0;
   width: 100%;
   padding: 3rem;
@@ -17,6 +17,7 @@
   -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
+  margin-top: -50px;
 }
 .footer-item {
   display: inline-block;
@@ -39,13 +40,20 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .footer {
-    bottom: -30%;
+    bottom: -70%;
+    font-size: 0.7rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
 @media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .footer {
-    bottom: -29%;
+    bottom: -35%;
     width: 72.96%;
     font-size: 0.7rem;
     display: flex;

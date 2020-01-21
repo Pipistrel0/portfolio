@@ -38,7 +38,7 @@ body {
 }
 
 .container-contact {
-  position: absolute;
+  position: fixed;
   top: 40%;
   left: 1.5%;
   transform: translate(-50%, -50%);
@@ -92,23 +92,38 @@ body {
     left: 50%;
   }
 }
+.container-logo {
+  position: absolute;
+  top: 6%;
+  left: 10.5%;
+  transform: translate(-50%, -50%);
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .container-profile {
-    top: 50%;
-    left: 60%;
+    top: 45%;
+    left: 50.5%;
   }
   .container-button {
-    top: 80%;
-    left: 60%;
+    top: 74.5%;
+    left: 50.5%;
   }
   .container-contact {
     top: 45%;
-    left: 2%;
+    left: 3%;
   }
   .container-portfolio {
-    top: 50%;
-    left: 60%;
+    top: 25%;
+    left: 43%;
+  }
+  .container-navigation {
+    top: 5%;
+    right: 3.3%;
+  }
+  .container-logo {
+    position: absolute;
+    top: 7.5%;
+    left: 19.5%;
   }
 }
 
@@ -124,24 +139,22 @@ body {
 
   .container-contact {
     top: 45%;
-    left: -14%;
+    left: -12.5%;
   }
 
-  .container-contact-portafolio {
-    top: 45%;
-    left: -14%;
-  }
   .container-navigation {
-    top: 3.3%;
-    right: -6.6%;
+    top: 2.2%;
+    right: -5.5%;
   }
   .container-portfolio {
-    top: 40%;
+    top: 30%;
     left: 56%;
   }
-}
-
-@media only screen and (max-width: 320px) {
+  .container-logo {
+    position: absolute;
+    top: 7%;
+    left: 28%;
+  }
 }
 
 ::-webkit-scrollbar-track {

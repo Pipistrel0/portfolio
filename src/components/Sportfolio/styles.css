@@ -90,7 +90,7 @@ figcaption .open-modal {
   color: #22262a;
   font-family: Staatliches, sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 1px;
   margin: 0 0;
   background-color: hsla(0, 0%, 100%, 0.8);
@@ -133,17 +133,6 @@ figure:hover .additional img {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.45);
 }
-
-/* .close-modal {
-  position: relative;
-  font-family: "Staatchiles", consolas;
-}
-
-.close-modal:hover,
-.close-modal:focus {
-  text-decoration: none;
-  cursor: pointer;
-} */
 
 .container-text {
   background-color: #343a41;
@@ -284,4 +273,292 @@ figure:hover .additional img {
 .private-btn {
   background-color: hsla(0, 0%, 100%, 0.4);
   cursor: default;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  section {
+    position: relative;
+
+    left: -5%;
+  }
+
+  .secondary-header {
+    font-size: 40px;
+    font-family: "Staatliches" "Inconsolata", consolas;
+    color: #fff;
+  }
+  .secondary-sub {
+    font-size: 15px;
+    font-family: "Inconsolata", consolas;
+    color: #94a4b4;
+  }
+  .gallery {
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  figure {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    transition: background-color 0.5s;
+    width: 640px;
+    height: 360px;
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8));
+  }
+
+  .project-modal {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 420px;
+    height: 520px;
+    background-color: #343a41;
+    margin: 8% auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
+  section {
+    position: relative;
+
+    left: -18%;
+  }
+
+  .secondary-header {
+    font-size: 30px;
+    font-family: "Staatliches" "Inconsolata", consolas;
+    color: #fff;
+  }
+  .secondary-sub {
+    font-size: 10px;
+    word-break: break-word;
+    font-family: "Inconsolata", consolas;
+    color: #94a4b4;
+  }
+  .gallery {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  figure {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 270px;
+    height: 140px;
+  }
+  .additional img {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 0.5s;
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    position: relative;
+  }
+  .additional {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 0.5s;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  figcaption {
+    position: absolute;
+    padding: 1em 2em;
+    top: 0%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  figcaption h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    background: black;
+    display: block;
+    padding: 0.5em 0.7em;
+    font-family: "Staatliches", "Inconsolata", consolas;
+  }
+
+  figcaption .open-modal {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: #22262a;
+    font-family: Staatliches, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0 0;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .project-modal {
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    width: 250px;
+    height: 450px;
+    background-color: #343a41;
+    margin: 8% auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .container-text {
+    background-color: #343a41;
+    width: 100%;
+    height: 100%;
+    font-size: 5px;
+  }
+  .project-right {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    color: #fff;
+    font-family: "Inconsolata", sans-serif;
+  }
+
+  .project-label {
+    font-size: 1em;
+    color: #94a4b4;
+  }
+
+  .project-name {
+    font-size: 1.4em;
+    font-weight: lighter;
+    padding-bottom: 0px;
+  }
+
+  .project-technologies {
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  .project-technology {
+    display: inline-block;
+    margin: 3px;
+    border: 1px solid #22262a;
+    padding: 3px;
+    color: #94a4b4;
+    font-weight: lighter;
+    font-size: 0.9em;
+  }
+
+  .project-summary {
+    margin-top: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 0.5em;
+    line-height: 20px;
+    color: #94a4b4;
+    overflow-y: scroll;
+    height: 140px;
+    white-space: pre-line;
+  }
+  .project-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #22262a;
+    font-family: Staatliches, sans-serif;
+    font-size: 4px;
+
+    margin: 0 10px;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .project-button--modal {
+    margin: 10px 5px 0 5px;
+    font-size: 14px;
+    padding: 4px 9px;
+  }
+
+  .project-button-hover:active,
+  .project-button-hover:focus,
+  .project-button-hover:hover {
+    background-color: #fff;
+  }
+
+  .close-modal {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    color: #22262a;
+    font-family: "Staatliches", sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    border: none;
+    border-radius: 3px;
+    margin: 10px 5px 0px 15px;
+    font-size: 14px;
+    padding: 4px 9px;
+  }
+  .close-modal:active,
+  .close-modal:focus,
+  .close-modal:hover {
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .buttons {
+    display: flex;
+
+    flex-flow: column nowrap;
+  }
+  .button-demo {
+    display: flex;
+    align-items: center;
+    flex-direction: nowrap;
+  }
+  .button-svg {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -2px;
+    margin-right: 3px;
+  }
 }

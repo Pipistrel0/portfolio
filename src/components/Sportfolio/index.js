@@ -6,7 +6,7 @@ import utnl from "./../../images/utn.png";
 import cloudl from "./../../images/cloud.png";
 import portfoliol from "./../../images/portfolio.png";
 import { IconContext } from "react-icons";
-import { FaEye, FaCode, FaEyeSlash } from "react-icons/fa";
+import { FaEye, FaCode } from "react-icons/fa";
 import { Button, Modal } from "react-bootstrap";
 import "./styles.css";
 
