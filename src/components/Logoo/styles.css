@@ -10,7 +10,7 @@
   }
 }
 
-@media only screen and (min-width: 321px) and (max-device-height: 768px) {
+@media only screen and (min-width: 321px) and (max-device-width: 768px) {
   .logo-tilt img {
     width: 200px;
   }

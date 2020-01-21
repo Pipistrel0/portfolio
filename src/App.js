@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import Logoo from "./components/Logoo";
 import Profile from "./components/Profile";
+import Hello from "./components/Hello";
 import Button from "./components/Button";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
@@ -19,6 +20,9 @@ function App() {
           <div className="App">
             <div className="container-profile">
               <Profile />
+            </div>
+            <div className="container-hello">
+              <Hello />{" "}
             </div>
             <div className="container-button">
               <Button />

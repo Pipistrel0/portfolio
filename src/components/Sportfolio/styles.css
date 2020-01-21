@@ -12,6 +12,7 @@ section {
   font-size: 20px;
   font-family: "Inconsolata", consolas;
   color: #94a4b4;
+  width: 100%;
 }
 .gallery {
   margin-top: 40px;
@@ -345,6 +346,8 @@ figure:hover .additional img {
     word-break: break-word;
     font-family: "Inconsolata", consolas;
     color: #94a4b4;
+    width: 200px;
+    height: 31.2px;
   }
   .gallery {
     margin-top: 20px;

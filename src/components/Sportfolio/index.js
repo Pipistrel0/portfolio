@@ -1,4 +1,5 @@
 import React from "react";
+import Typical from "react-typical";
 import utn from "./../../images/1.jpg";
 import weather from "./../../images/2.jpg";
 import portfolio from "./../../images/3.jpg";
@@ -43,10 +44,15 @@ class Sportfolio extends React.Component {
     return (
       <section>
         <h2 className="secondary-header">Portafolio</h2>
-        <sub className="secondary-sub">
-          {"//"} Estos son mis proyectos favoritos en los que he trabajado.
-          ¡Echa un vistazo y asegúrate de contactarme!
-        </sub>
+        <Typical
+          steps={[
+            "//Estos son mis proyectos favoritos en los que trabajé. ¡Echa un vistazo y asegúrate de contactarme!",
+            100
+          ]}
+          loop={1}
+          wrapper="p"
+          className="secondary-sub"
+        />
         <div className="gallery">
           <figure>
             <img src={utn} alt="asd"></img>
