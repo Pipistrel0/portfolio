@@ -224,11 +224,12 @@ figure:hover .additional img {
   padding: 5px 10px;
 }
 
-.project-button:active,
-.project-button:focus,
-.project-button:hover {
+.project-button-hover:active,
+.project-button-hover:focus,
+.project-button-hover:hover {
   background-color: #fff;
 }
+
 .close-modal {
   position: relative;
   display: inline-block;
@@ -279,4 +280,9 @@ figure:hover .additional img {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.private-btn {
+  background-color: hsla(0, 0%, 100%, 0.4);
+  cursor: default;
 }

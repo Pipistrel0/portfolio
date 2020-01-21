@@ -98,7 +98,7 @@ class Sportfolio extends React.Component {
                                 <a
                                   href="https://www.pipistrel0.com"
                                   target="_blank"
-                                  className="project-button project-button--modal"
+                                  className="project-button project-button--modal project-button-hover"
                                   rel="noopener noreferrer"
                                 >
                                   <div className="button-svg">
@@ -108,17 +108,12 @@ class Sportfolio extends React.Component {
                                 </a>
                               </div>
                               <div className="button-code">
-                                <a
-                                  href="https://github.com/Pipistrel0"
-                                  target="_blank"
-                                  className="project-button project-button--modal"
-                                  rel="noopener noreferrer"
-                                >
+                                <div className="project-button project-button--modal private-btn">
                                   <div className="button-svg">
-                                    <FaEyeSlash size="1em" />
+                                    <FaCode size="1em" />
                                   </div>
-                                  CODIGO
-                                </a>
+                                  PRIVADO
+                                </div>
                                 <Button
                                   className="close-modal"
                                   onClick={() => {
@@ -163,9 +158,9 @@ class Sportfolio extends React.Component {
                             <div className="buttons">
                               <div className="button-demo">
                                 <a
-                                  href="https://www.pipistrel0.com"
+                                  href="https://pipistrel0.github.io/weather-app/"
                                   target="_blank"
-                                  className="project-button project-button--modal"
+                                  className="project-button project-button-hover project-button--modal"
                                   rel="noopener noreferrer"
                                 >
                                   <div className="button-svg">
@@ -176,9 +171,9 @@ class Sportfolio extends React.Component {
                               </div>
                               <div className="button-code">
                                 <a
-                                  href="https://github.com/Pipistrel0"
+                                  href="https://github.com/Pipistrel0/weather-app"
                                   target="_blank"
-                                  className="project-button project-button--modal"
+                                  className="project-button project-button-hover project-button--modal"
                                   rel="noopener noreferrer"
                                 >
                                   <div className="button-svg">
@@ -229,9 +224,9 @@ class Sportfolio extends React.Component {
                             <div className="buttons">
                               <div className="button-demo">
                                 <a
-                                  href="https://www.pipistrel0.com"
+                                  href="https://pipistrel0.github.io/portfolio/"
                                   target="_blank"
-                                  className="project-button project-button--modal"
+                                  className="project-button project-button-hover project-button--modal"
                                   rel="noopener noreferrer"
                                 >
                                   <div className="button-svg">
@@ -242,9 +237,9 @@ class Sportfolio extends React.Component {
                               </div>
                               <div className="button-code">
                                 <a
-                                  href="https://github.com/Pipistrel0"
+                                  href="https://github.com/Pipistrel0/portfolio"
                                   target="_blank"
-                                  className="project-button project-button--modal"
+                                  className="project-button project-button--modal project-button-hover"
                                   rel="noopener noreferrer"
                                 >
                                   <div className="button-svg">
