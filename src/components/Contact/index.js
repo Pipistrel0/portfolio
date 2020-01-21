@@ -94,7 +94,7 @@ const Contact = () => {
       </li>
       <li className="contact-item resume">
         <a
-          href="https://drive.google.com/open?id=1ID5Mgo0ek2gOdt7-522EV0sR1zn41RAT"
+          href="https://drive.google.com/open?id=1irt4TaQYJD9C32oTd_Xwj52Uq76W3VbR"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link resume"
