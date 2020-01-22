@@ -91,34 +91,25 @@ class Sportfolio extends React.Component {
                               <li className="project-technology">BOOTSTRAP</li>
                               <li className="project-technology">PHP</li>
                               <li className="project-technology">LARAVEL</li>
-                              <li className="project-technology">MYSQL</li>
+                              <li className="project-technology">SQL</li>
                             </ul>
                             <div className="project-label">
                               ACERCA DEL PROYECTO
                             </div>
                             <p className="project-summary">
-                              Contrary to popular belief, Lorem Ipsum is not
-                              simply random text. It has roots in a piece of
-                              classical Latin literature from 45 BC, making it
-                              over 2000 years old. Richard McClintock, a Latin
-                              professor at Hampden-Sydney College in Virginia,
-                              looked up one of the more obscure Latin words,
-                              consectetur, from a Lorem Ipsum passage, and going
-                              through the cites of the word in classical
-                              literature, discovered the undoubtable source.
-                              Lorem Ipsum comes from sections 1.10.32 and
-                              1.10.33 of "de Finibus Bonorum et Malorum" (The
-                              Extremes of Good and Evil) by Cicero, written in
-                              45 BC. This book is a treatise on the theory of
-                              ethics, very popular during the Renaissance. The
-                              first line of Lorem Ipsum, "Lorem ipsum dolor sit
-                              amet..", comes from a line in section 1.10.32. The
-                              standard chunk of Lorem Ipsum used since the 1500s
-                              is reproduced below for those interested. Sections
-                              1.10.32 and 1.10.33 from "de Finibus Bonorum et
-                              Malorum" by Cicero are also reproduced in their
-                              exact original form, accompanied by English
-                              versions from the 1914 translation by H. Rackham.
+                              Tuve la experiencia de ser pasante en la Facultad
+                              Regional de Haedo. Se me otorgó la tarea de
+                              desarrollar una página web que gestione las
+                              pasantías de dicha facultad, en el cual se
+                              encontraban 3 tipos de perfiles, administrativos,
+                              empresas y los pasantes o alumnos de la Facultad.
+                              Durante el proyecto lidere a 2 de mis compañeros y
+                              fui el encargado en el back-end. También me
+                              involucre en el desarrollo del front-end y en la
+                              documentación. <br></br> <br></br>Para este
+                              proyecto tuve la oportunidad de aprender el
+                              framework Laravel de PHP, a gestionar y crear base
+                              de datos SQL y a gestionar servios de hosting.
                             </p>
                             <div className="buttons">
                               <div className="button-demo">
@@ -180,7 +171,19 @@ class Sportfolio extends React.Component {
                               ACERCA DEL PROYECTO
                             </div>
                             <p className="project-summary">
-                              Forecast Weather con react
+                              Esta es una Single Page Aplication que utilizando
+                              una API otorgada Open Weather Map es capaz de
+                              pronosticar el clima de la ubicación seleccionada
+                              y dar un pronóstico de la semana. <br></br>{" "}
+                              <br></br>
+                              Utilizo este proyecto para profundizar mis
+                              conocimientos con React y Redux, aprender nuevas
+                              técnicas, utilizar librerías de React como
+                              react-moment, prop-types, react-icons, etc.{" "}
+                              <br></br> <br></br>
+                              Actualmente me encuentro desarrollando esta página
+                              en la cual implementó nuevas cosas y sigue
+                              profundizando mis conocimientos.
                             </p>
                             <div className="buttons">
                               <div className="button-demo">
@@ -246,7 +249,14 @@ class Sportfolio extends React.Component {
                               ACERCA DEL PROYECTO
                             </div>
                             <p className="project-summary">
-                              Portafolio con react
+                              La idea detrás de este proyecto es poder mostrar
+                              todos mi grandes proyectos en los que trabajé.
+                              Traté de mostrar la mayor cantidad de mis
+                              conocimientos a lo largo de todo el portafolio.
+                              <br></br> <br></br>
+                              Esta página está construida con React y librerías
+                              cómo react-particles, react-typical, reat-icos,
+                              react-tilt y muchas otras.
                             </p>
                             <div className="buttons">
                               <div className="button-demo">

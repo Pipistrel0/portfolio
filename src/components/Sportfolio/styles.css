@@ -147,7 +147,7 @@ figure:hover .additional img {
   vertical-align: top;
   padding: 15px;
   color: #fff;
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Staatchiles", sans-serif;
 }
 
 .project-label {
@@ -180,11 +180,14 @@ figure:hover .additional img {
 }
 
 .project-summary {
-  margin-top: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   margin-left: 5px;
   font-weight: bold;
+  font-family: "Inconsolata", consolas;
+  font-weight: lighter;
   font-size: 0.9em;
-  line-height: 20px;
+  line-height: 25px;
   color: #94a4b4;
   overflow-y: scroll;
   height: 230px;
@@ -268,7 +271,7 @@ figure:hover .additional img {
   padding-right: 20px;
   padding-left: 10px;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .private-btn {
