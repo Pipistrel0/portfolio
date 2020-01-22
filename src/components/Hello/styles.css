@@ -7,7 +7,12 @@
   font-family: "Inconsolata", consolas;
   color: #94a4b4;
 }
-
+@media screen and (min-width: 1620px) and (max-device-width: 1920px) {
+  .hello {
+    top: 60%;
+    left: 40%;
+  }
+}
 @media only screen and (min-width: 321px) and (max-device-width: 768px) {
   .hello {
     width: 200px;
