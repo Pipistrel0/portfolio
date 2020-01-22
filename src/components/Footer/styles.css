@@ -21,16 +21,23 @@
 }
 .footer-item {
   display: inline-block;
+  margin-left: 7px;
 }
 
 .footer-contact {
   display: inline-block;
+  margin-left: 7px;
 }
 
 .footer-link:link,
 .footer-link:visited {
   color: #fff;
   text-decoration: none;
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .footer {
+    bottom: -70%;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-device-width: 1920px) {

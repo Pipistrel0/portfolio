@@ -10,9 +10,10 @@
 
 @media only screen and (min-width: 321px) and (max-device-width: 768px) {
   .hello {
-    width: 300px;
-    font-size: 15px;
-    top: 61.3%;
-    left: 27%;
+    width: 200px;
+    word-break: break-all;
+    font-size: 13px;
+    top: 60%;
+    left: 30%;
   }
 }

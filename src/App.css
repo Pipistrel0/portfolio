@@ -16,6 +16,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.container-logo {
+  position: absolute;
+  top: 6%;
+  left: 10.5%;
+  transform: translate(-50%, -50%);
+}
 
 .container-profile {
   position: absolute;
@@ -54,8 +60,8 @@ body {
 }
 .container-portfolio {
   position: absolute;
-  top: 52%;
-  left: 45%;
+  top: 58%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -96,11 +102,16 @@ body {
     left: 50%;
   }
 }
-.container-logo {
-  position: absolute;
-  top: 6%;
-  left: 10.5%;
-  transform: translate(-50%, -50%);
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container-logo {
+    top: 6%;
+    left: 12.5%;
+  }
+  .container-portfolio {
+    top: 38%;
+    left: 49%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
